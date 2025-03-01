@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADDΦEUP</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
-
-        body {
-            background-color: black;
-            color: white;
-            font-family: 'EB Garamond', serif;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        h1 {
-            font-size: 100px;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-        .logo {
-            letter-spacing: 8px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>ΔDDΦEUP</title>
+  <!-- Import Bebas Neue font from Google Fonts for the bottom right text -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000; /* Black background */
+      position: relative;     /* For positioning the bottom right text */
+    }
+    body {
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center;     /* Center vertically */
+    }
+    .logo {
+      color: #fff;                                  /* White text */
+      font-family: "Times New Roman", Times, serif; /* Original serif font */
+      font-weight: bold;                            /* Bold text */
+      font-size: 8vw;                               /* Large size, scales with viewport */
+      letter-spacing: 0.1em;                        /* Space between letters */
+      transform: translateY(-6vh);                  /* Push text upward */
+    }
+    .party {
+      position: absolute;
+      bottom: 20px;                                 /* Adjust bottom spacing */
+      right: 20px;                                  /* Adjust right spacing */
+      color: #fff;                                  /* White text */
+      font-family: 'Bebas Neue', sans-serif;        /* Dope font */
+      font-size: 2vw;                               /* Smaller font size */
+    }
+  </style>
 </head>
 <body>
-    <h1 class="logo">ΔDDΦEUP</h1>
+  <div class="logo">ΔDDΦEUP</div>
+  <div class="party">Vibes Activating ... Stay Tuned !!</div>
 </body>
 </html>
